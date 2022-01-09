@@ -14,7 +14,7 @@ export default function App() {
         <h2 id={styles.description}>Hi am a developer to help you on your next project!</h2>
       </div>
       {/* <img src="/images/Davis.jpg" alt="Davis Picture" /> */}
-      <Navbar />
+      {/* <Navbar /> */}
       <Footer />
     </div>
   )
