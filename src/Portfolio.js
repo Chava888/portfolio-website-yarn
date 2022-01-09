@@ -1,13 +1,13 @@
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
-import styles from '../styles/Portfolio.module.css'
-import CarouselTemplate from '../components/CarouselTemplate'
-import Card from '../components/Card'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+// import Header from './components/Header'
+import styles from './styles/Portfolio.module.css'
+import CarouselTemplate from './components/CarouselTemplate'
+import Card from './components/Card'
 import { v4 as uuidv4 } from 'uuid'
 
 
-function Portfolio() {
+export default function Portfolio() {
 
     //An array listing projects based on keys: name & description
     let items = [
@@ -28,7 +28,7 @@ function Portfolio() {
 
     return (
         <>
-            <Header />
+            {/* <Header /> */}
             <h1 id={styles.title}>My Personal Projects</h1>
             <div className={styles.carouselContainer}>
                 <div className={styles.carousel}>
@@ -49,4 +49,3 @@ function Portfolio() {
     )
 }
 
-export default Portfolio

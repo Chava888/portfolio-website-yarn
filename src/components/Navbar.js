@@ -2,8 +2,9 @@
 import styles from "./navbar.module.css"
 import MenuBarIcon from "./MenuBarIcon"
 import useToggle from "./hooks/useToggle"
-
-
+import * as React from "react";
+import { Routes, Route, Link } from "react-router-dom";
+//Import route components
 
 
 
@@ -16,36 +17,38 @@ function Navbar() {
         <div className={styles.container}>
 
             <div id={styles.name}> Salvador Portfolio</div>
+
             <ul className={styles.nav}>
                 <li className={styles.labels} id={styles.menu}>
-                    <Link href="/">
+                    <Link to="/">
                         <a className={styles.navbarAnchors} id={styles.homeTab}>Home</a>
                     </Link>
                     <div id={styles.menuIcon} onClick={toggleList} ><MenuBarIcon /></div>
                 </li>
                 <li className={isList ? styles.hide.concat(" ", styles.labels) : styles.labels}>
-                    <Link href="/About">
+                    <Link to="/About">
                         <a className={styles.navbarAnchors}>About</a>
                     </Link>
                 </li>
                 <li className={isList ? styles.hide.concat(" ", styles.labels) : styles.labels}>
-                    <Link href="/Portfolio">
+                    <Link to="/Portfolio">
                         <a className={styles.navbarAnchors}>Portfolio</a>
                     </Link>
                 </li>
                 <li className={isList ? styles.hide.concat(" ", styles.labels) : styles.labels}>
-                    <Link href="/Blog">
+                    <Link to="/Blog">
                         <a className={styles.navbarAnchors}>Blog</a>
                     </Link>
                 </li>
                 <li className={isList ? styles.hide.concat(" ", styles.labels) : styles.labels}>
-                    <Link href="/Contact">
+                    <Link to="/Contact">
                         <a className={styles.navbarAnchors}>Contact</a>
                     </Link>
                 </li>
 
 
             </ul>
+
         </div >
     )
 }

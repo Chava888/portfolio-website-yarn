@@ -1,11 +1,11 @@
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
-import styles from '../styles/Contact.module.css'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+// import Header from './components/Header'
+import styles from './styles/Contact.module.css'
 import { useState } from 'react'
 
 
-function Contact() {
+export default function Contact() {
 
 
     const [submit, setSubmit] = useState(false)
@@ -22,7 +22,7 @@ function Contact() {
 
     return (
         <div>
-            <Header />
+            {/* <Header /> */}
             <h1 className={styles.title}>Contact Information</h1>
 
             {submit === false ?
@@ -65,5 +65,3 @@ function Contact() {
         </div >
     )
 }
-
-export default Contact

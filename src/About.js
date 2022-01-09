@@ -1,13 +1,13 @@
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
-import styles from '../styles/About.module.css'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+// import Header from './components/Header'
+import styles from './styles/About.module.css'
 
 
-function About() {
+export default function About() {
     return (
         <>
-            <Header />
+            {/* <Header /> */}
             <div className={styles.aboutContainer}>
                 <h1 id={styles.title}>About Myself</h1>
                 <div className={styles.profile}>
@@ -38,4 +38,3 @@ function About() {
     )
 }
 
-export default About
