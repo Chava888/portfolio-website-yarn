@@ -1,0 +1,49 @@
+#photoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 350px;
+    background-color: aliceblue;
+    border: 2px  aliceblue solid;
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    border-radius: 10px;
+    padding: 15px 5px 5px 5px;
+    margin: 10px;
+  }
+
+  #descriptionContainer{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    overflow-wrap: anywhere;
+  }
+
+  #imageBox{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 250px;
+    background-color: aliceblue;
+    border: 10px  aliceblue solid;
+    border-radius: 5px 5px 5px 5px;
+  }
+
+  #photo{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+  }
+
+  #name{
+    color: aliceblue;
+    margin: 10px 50px 0px 50px;
+  }
+
+  #description, #link{
+      color: aliceblue;
+      margin: 0px 0px 0px 0px;
+      padding: 0px 5px 0px 5px;
+  }

@@ -1,0 +1,157 @@
+.container{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,13,121,1) 0%, rgba(1,186,238,1) 93%, rgba(0,212,255,1) 100%);
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 3px 3px #0F5298;
+
+}
+
+#name{
+    justify-self: center;
+    color: aliceblue;
+    margin: 14px;
+    font-size: x-large;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    font-size: x-large;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-left:0px;
+    margin-right: 0px;
+    
+}
+
+
+.labels {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    list-style-type: none;
+    cursor: pointer;
+    color: aliceblue;
+    position: relative;
+    text-decoration: none;
+   
+  }
+  
+  .labels:hover {
+    color: aqua;
+  }
+  
+  .labels::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: aliceblue;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .labels:hover::before {
+    transform: scaleX(1);
+  }
+
+
+
+  @media screen and (min-width:600px) and (max-width: 792px){
+    .container{
+      display: flex;
+      justify-content: center;
+    }
+    
+    .nav{
+    display: flex;
+    justify-content: space-between ;
+    padding: 0;
+    }
+    
+    #name{
+      display: none;
+    }
+  }
+
+
+
+  @media screen and (max-width: 600px){
+    .container{
+      padding: 0;
+      margin:0;
+    }
+
+    .nav{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    }
+
+    #menu{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    #homeTab{
+     margin-left: 42px;
+    }
+
+    #menuIcon{
+      justify-content: center;
+    }
+
+   
+    .labels::before {
+      transition: transform .7s ease;
+    }
+
+
+    .labels{
+      display: flex;
+      align-items: center;
+      text-align: center;
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-bottom: 0px;
+      padding-top: 5px;
+      height: 40px;
+      justify-content: center;
+
+    }
+
+    .labels:hover{
+      background: rgb(2,0,36,0.2);
+    }
+
+
+
+    
+    .navbarAnchors{
+      width: 100%;
+      height: 100%;
+      padding:0;
+    }
+
+    #name{
+      display: none;
+    }
+
+    .hide{
+      display: none;
+    }
+
+
+    }

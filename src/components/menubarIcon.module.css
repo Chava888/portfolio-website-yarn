@@ -1,0 +1,46 @@
+
+@media screen and (max-width: 600px){
+
+.menuIcon{
+height: 33.6px;
+display: fixed;
+}
+
+.menuBar{
+
+    width: 30px;
+    height: 3px;
+    background-color: aliceblue;
+    margin: 5px 5px 5px 5px;
+}
+
+#xBarSymbolOne{
+    
+    right:12px;
+    height: 35px;
+    width: 2px;
+    background-color: aliceblue;
+    transform: rotate(45deg);
+    Z-index: 1;
+  
+}
+
+#xBarSymbolTwo{
+    height: 35px;
+    width: 2px;
+    background-color: aliceblue;
+    transform: rotate(90deg);
+    Z-index: 2;
+    
+}
+
+#containerX{
+    float: inline-end;
+    width: 35px;
+    margin-left: 6px;
+    padding-left: 10px;
+   
+
+}
+
+}

@@ -1,0 +1,25 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+}
+
+#wrapper{
+  margin: 0;
+}
+
+#welcome{
+  margin-top: 90px;
+  justify-self: center;
+  color: aliceblue;
+  transform: scale(2);
+
+}
+
+#description{
+  margin-top: 20px;
+  justify-self: center;
+  color: aliceblue;
+  transform: scale(1.5);
+}

@@ -1,0 +1,106 @@
+
+.container{
+    display: flex;
+    justify-content:space-evenly;
+    overflow: hidden;
+}
+
+#ruby{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*invert function inverts the image from black to aliceblue
+    drop-shadow function to create a shadow effect on the icons*/
+    filter: drop-shadow(0px 5px 5px aliceblue) invert(100%);
+    padding-top: 5px;
+}
+
+#rubyIcon{
+    transform: rotate(310deg) translate(0px, 20px);
+}
+
+
+#html5{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*invert function inverts the image from black to aliceblue
+    drop-shadow function to create a shadow effect on the icons*/
+    filter: drop-shadow(0px 5px 5px aliceblue) invert(100%);
+    padding-top: 5px;
+}
+
+#css3{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*invert function inverts the image from black to aliceblue
+    drop-shadow function to create a shadow effect on the icons*/
+    filter: drop-shadow(0px 5px 5px aliceblue) invert(100%);
+    padding-top: 5px;
+}
+
+#js{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*invert function inverts the image from black to aliceblue
+    drop-shadow function to create a shadow effect on the icons*/
+    filter: drop-shadow(0px 5px 5px aliceblue) invert(100%);
+    padding-top: 5px;
+}
+
+#react{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*invert function inverts the image from black to aliceblue
+    drop-shadow function to create a shadow effect on the icons*/
+    filter: drop-shadow(0px 5px 5px aliceblue) invert(100%);
+    padding-top: 5px;
+}
+
+#nodejs{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*invert function inverts the image from black to aliceblue
+    drop-shadow function to create a shadow effect on the icons*/
+    filter: drop-shadow(0px 5px 5px aliceblue) invert(100%);
+    padding-top: 5px;
+}
+
+#bootstrap{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*invert function inverts the image from black to aliceblue
+    drop-shadow function to create a shadow effect on the icons*/
+    filter: drop-shadow(0px 5px 5px aliceblue) invert(100%);
+    padding-top: 5px;
+}
+
+#github{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*invert function inverts the image from black to aliceblue
+    drop-shadow function to create a shadow effect on the icons*/
+    filter: drop-shadow(0px 5px 5px aliceblue) invert(100%);
+    padding-top: 5px;
+}
