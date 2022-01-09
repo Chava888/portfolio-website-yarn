@@ -10,6 +10,17 @@ import Contact from './Contact';
 
 
 
+// export default function App() {
+//   return (
+//     <Routes>
+//       <Route path="/" element={<Home />} />
+//       <Route path="About" element={<About />} />
+//       <Route path="Portfolio" element={<Portfolio />} />
+//       <Route path="Blog" element={<Blog />} />
+//       <Route path="Contact" element={<Contact />} />
+//     </Routes>
+//   )
+
 export default function App() {
   return (
     <Routes>
@@ -20,4 +31,5 @@ export default function App() {
       <Route path="Contact" element={<Contact />} />
     </Routes>
   )
+
 }
