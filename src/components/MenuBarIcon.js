@@ -1,5 +1,11 @@
 import styles from './menubarIcon.module.css'
 import useToggle from "./hooks/useToggle"
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
+
+
+
+
 
 
 //This component generates a menu bar icon
@@ -10,25 +16,14 @@ function MenuBarIcon() {
     const [isActive, toggleActive] = useToggle(true);
 
 
-    //Based on isActive true or false the menu button will be rendered as bars or X
+    //Based on isActive true or false the menu button will be rendered or closing icon X
     return (
-        <div onClick={toggleActive}>
-
-            {isActive ? <div className={styles.menuIcon}>
-                <div className={styles.menuBar}></div>
-                <div className={styles.menuBar}></div>
-                <div className={styles.menuBar}></div>
-            </div>
+        <div className={styles.container} onClick={toggleActive}>
+            {isActive ?
+                <MenuIcon fontSize='large' />
                 :
-                <div className={styles.menuIcon}>
-                    <div id={styles.containerX}>
-                        <div id={styles.xBarSymbolOne}>
-                            <div id={styles.xBarSymbolTwo}></div>
-                        </div>
-                    </div>
-                </div>
+                <CloseIcon fontSize='large' />
             }
-
         </div >
     )
 

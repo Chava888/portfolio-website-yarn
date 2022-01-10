@@ -9,7 +9,9 @@ function Footer() {
                 <div className={styles.iconBrands}>
                     <i className="fab fa-instagram fa-2x"></i>
                     <i className="fab fa-twitter fa-2x"></i>
-                    <i className="fab fa-linkedin fa-2x"></i>
+                    <a href="https://www.linkedin.com/in/salvadortena/" target="_blank">
+                        <i className="fab fa-linkedin fa-2x"></i>
+                    </a>
                     <i className="fab fa-youtube fa-2x"></i>
                 </div>
                 <div className={styles.yearEstablished}>

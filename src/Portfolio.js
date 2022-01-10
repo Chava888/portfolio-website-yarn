@@ -5,6 +5,8 @@ import styles from './styles/Portfolio.module.css'
 import CarouselTemplate from './components/CarouselTemplate'
 import Card from './components/Card'
 import { v4 as uuidv4 } from 'uuid'
+import Davis from './images/Davis.jpg'
+import Tahoe from './images/Tahoe.jpg'
 
 
 export default function Portfolio() {
@@ -12,13 +14,13 @@ export default function Portfolio() {
     //An array listing projects based on keys: name & description
     let items = [
         {
-            name: <img src="/images/Davis.jpg" alt="Davis Picture" />,
+            name: <img src={Davis} alt="Davis Picture" key="1" />,
             description: "First Projectcnjkcnrvkrjnvekrnver eckjewc ewkcjwefewlfjnwekfwenfw krnjfrwkndvsdfmvsoifvnsfnovnm evonvowivnwodcnsocdn3iowwcownworvinrwvownrnoivnwrovnrwovrn "
 
 
         },
         {
-            name: <img src="/images/Tahoe.jpg" alt="Tahoe Picture" />,
+            name: <img src={Tahoe} alt="Tahoe Picture" key="2" />,
             description: "Second Projectcnjkcnrvkrjnvekrnver eckjewc ewkcjwefewlfjnwekfwenfwk rnjfrwkndvsdfmvsoifvnsfnovnmevonvowivn wodcnsocdn3iowwcownworvinrwvownrnoivnwrovnrwovrn "
 
         }

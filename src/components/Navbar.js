@@ -14,42 +14,30 @@ function Navbar() {
     const [isList, toggleList] = useToggle(true);
 
     return (
-        <div className={styles.container}>
+        <nav className={styles.container}>
 
+            <div id={styles.menuIcon} onClick={toggleList} ><MenuBarIcon /></div>
             <div id={styles.name}> Salvador Portfolio</div>
 
             <ul className={styles.nav}>
-                <li className={styles.labels} id={styles.menu}>
-                    <Link to="/">
-                        <a className={styles.navbarAnchors} id={styles.homeTab}>Home</a>
-                    </Link>
-                    <div id={styles.menuIcon} onClick={toggleList} ><MenuBarIcon /></div>
+                <li className={styles.labels} >
+                    <Link to="/" className={styles.nameLabel}>Home</Link>
                 </li>
                 <li className={isList ? styles.hide.concat(" ", styles.labels) : styles.labels}>
-                    <Link to="/About">
-                        <a className={styles.navbarAnchors}>About</a>
-                    </Link>
+                    <Link to="/About" className={styles.nameLabel}>About</Link>
                 </li>
                 <li className={isList ? styles.hide.concat(" ", styles.labels) : styles.labels}>
-                    <Link to="/Portfolio">
-                        <a className={styles.navbarAnchors}>Portfolio</a>
-                    </Link>
+                    <Link to="/Portfolio" className={styles.nameLabel}>Portfolio</Link>
                 </li>
                 <li className={isList ? styles.hide.concat(" ", styles.labels) : styles.labels}>
-                    <Link to="/Blog">
-                        <a className={styles.navbarAnchors}>Blog</a>
-                    </Link>
+                    <Link to="/Blog" className={styles.nameLabel}>Blog</Link>
                 </li>
                 <li className={isList ? styles.hide.concat(" ", styles.labels) : styles.labels}>
-                    <Link to="/Contact">
-                        <a className={styles.navbarAnchors}>Contact</a>
-                    </Link>
+                    <Link to="/Contact" className={styles.nameLabel}>Contact</Link>
                 </li>
-
-
             </ul>
 
-        </div >
+        </nav >
     )
 }
 
