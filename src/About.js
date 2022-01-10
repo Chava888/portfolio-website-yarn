@@ -26,8 +26,8 @@ export default function About() {
                 <div className={styles.backgroundEducation}>
                     <h2 id={styles.labelEducation}>Educational Background</h2>
                     <ul>
-                        <li className={styles.school}>Bachelor of Science Degree in Civil Engineering, University of California, Davis - 2014</li>
-                        <li className={styles.school}>Masters of Science Degree in Geotechnical Engineering, University of California, Berkeley - 2015</li>
+                        <li className={styles.school}>Bachelor of Science Degree in Civil Engineering, University of California, Davis</li>
+                        <li className={styles.school}>Masters of Science Degree in Geotechnical Engineering, University of California, Berkeley</li>
                     </ul>
                 </div>
 
