@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio-website-yarn/static/css/main.e5c35ff6.css",
-    "main.js": "/portfolio-website-yarn/static/js/main.3dcc1f7a.js",
+    "main.css": "/portfolio-website-yarn/static/css/main.517397bb.css",
+    "main.js": "/portfolio-website-yarn/static/js/main.13e6b205.js",
     "static/js/787.f4e5615d.chunk.js": "/portfolio-website-yarn/static/js/787.f4e5615d.chunk.js",
-    "static/media/Tahoe.jpg": "/portfolio-website-yarn/static/media/Tahoe.945ab56703eb020758bd.jpg",
-    "static/media/Davis.jpg": "/portfolio-website-yarn/static/media/Davis.7507a0eb5b16eb352f9c.jpg",
     "index.html": "/portfolio-website-yarn/index.html",
-    "main.e5c35ff6.css.map": "/portfolio-website-yarn/static/css/main.e5c35ff6.css.map",
-    "main.3dcc1f7a.js.map": "/portfolio-website-yarn/static/js/main.3dcc1f7a.js.map",
+    "main.517397bb.css.map": "/portfolio-website-yarn/static/css/main.517397bb.css.map",
+    "main.13e6b205.js.map": "/portfolio-website-yarn/static/js/main.13e6b205.js.map",
     "787.f4e5615d.chunk.js.map": "/portfolio-website-yarn/static/js/787.f4e5615d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5c35ff6.css",
-    "static/js/main.3dcc1f7a.js"
+    "static/css/main.517397bb.css",
+    "static/js/main.13e6b205.js"
   ]
 }
