@@ -1,19 +1,17 @@
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-// import Header from './components/Header'
 import styles from './styles/About.module.css'
 
 
 export default function About() {
     return (
         <>
-            {/* <Header /> */}
             <div className={styles.aboutContainer}>
                 <h1 id={styles.title}>About Myself</h1>
                 <div className={styles.profile}>
                     <div id={styles.photoContainer}>
                         <div id={styles.imageBox}>
-                            <img id={styles.photo} src="https://images.unsplash.com/photo-1593134257782-e89567b7718a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1635&q=80" alt="Personal Photo" />
+                            <img id={styles.photo} src="https://res.cloudinary.com/dxyntgtel/image/upload/v1641870954/portfolio-website/IMG_1361-5-5_owigff.jpg" alt="Personal Photo" />
                         </div>
                         <h2 id={styles.name}>Salvador Tena</h2>
                     </div>

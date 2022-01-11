@@ -39,9 +39,9 @@ export default function CarouselTemplate(props) {
             <div className={styles.indicatorContainer}>
                 {indicator.map(element => {
                     if (element === true) {
-                        return <div className={styles.activeIndicator}></div>
+                        return <div className={styles.activeIndicator} key={uuidv4()} ></div>
                     }
-                    else { return <div className={styles.inactiveIndicator}></div> }
+                    else { return <div className={styles.inactiveIndicator} key={uuidv4()}></div> }
                 })}
             </div>
         </div>

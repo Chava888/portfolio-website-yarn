@@ -35,15 +35,23 @@
     width: 100%;
     height: 100%;
     border-radius: 5%;
+    object-fit: cover;
   }
 
   #name{
     color: aliceblue;
     margin: 10px 50px 0px 50px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
   }
 
   #description, #link{
       color: aliceblue;
-      margin: 0px 0px 0px 0px;
+      margin: 0px 0px 10px 0px;
       padding: 0px 5px 0px 5px;
+  }
+
+  #link:hover{
+    color:aqua;
   }

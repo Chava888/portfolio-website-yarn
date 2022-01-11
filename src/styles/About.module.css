@@ -38,7 +38,7 @@
 
   #name{
     color: aliceblue;
-    padding: 10% 10% 0% 10%;
+    padding: 5% 10% 0% 10%;
     margin-top: 0px;
     width: 100%;
     text-align: center;
@@ -129,6 +129,8 @@
       width: 500px;
       height: 500px;
       border-radius: 100%;
+      object-fit: cover;
+      object-position: 50% 5%;
     }
 
     #title{
