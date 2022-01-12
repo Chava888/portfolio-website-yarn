@@ -29,9 +29,9 @@ function Navbar() {
                 <li className={isList ? styles.hide.concat(" ", styles.labels) : styles.labels}>
                     <Link to="/Portfolio" className={styles.nameLabel}>Portfolio</Link>
                 </li>
-                <li className={isList ? styles.hide.concat(" ", styles.labels) : styles.labels}>
+                {/* <li className={isList ? styles.hide.concat(" ", styles.labels) : styles.labels}>
                     <Link to="/Blog" className={styles.nameLabel}>Blog</Link>
-                </li>
+                </li> */}
                 <li className={isList ? styles.hide.concat(" ", styles.labels) : styles.labels}>
                     <Link to="/Contact" className={styles.nameLabel}>Contact</Link>
                 </li>

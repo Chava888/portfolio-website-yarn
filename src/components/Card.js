@@ -7,7 +7,7 @@ export default function Card(props) {
         <div>
             <div id={styles.photoContainer}>
                 <div id={styles.imageBox}>
-                    <img id={styles.photo} src={props.imgLink.props.src} alt="project photo" />
+                    <img id={styles.photo} src={props.imgLink.props.src} alt={`${props.name} photo`} />
                 </div>
                 <div id={styles.descriptionContainer}>
                     <h2 id={styles.name}>{props.name}</h2>

@@ -27,24 +27,29 @@ export default function CarouselTemplate(props) {
 
 
     return (
-        <div className={styles.container}>
-            <div className={styles.carouselContainer}>
-                <button className={styles.previous} onClick={previousItem}><div className={styles.backward}><ArrowBackIosNewIcon /></div></button>
-                <div className={styles.contentInformation}>
-                    <div className={styles.imageContainer}>{images[index]}</div>
-                    {array[index].description && <div className={styles.description}>{array[index].description}</div>}
+        <>
+            <div className={styles.wrapperCarousel}>
+                <div className={styles.container}>
+                    <div className={styles.carouselContainer}>
+                        <button className={styles.previous} onClick={previousItem}><div className={styles.backward}><ArrowBackIosNewIcon /></div></button>
+                        <div className={styles.contentInformation}>
+                            <div className={styles.imageContainer}>{images[index]}</div>
+                            {array[index].description && <div className={styles.description}>{array[index].description}</div>}
+                        </div>
+                        <button className={styles.next} onClick={nextItem}><div className={styles.forward}><ArrowForwardIosIcon /></div></button>
+                    </div>
                 </div>
-                <button className={styles.next} onClick={nextItem}><div className={styles.forward}><ArrowForwardIosIcon /></div></button>
+                <div className={styles.indicatorContainer}>
+                    {indicator.map(element => {
+                        if (element === true) {
+                            return <div className={styles.activeIndicator} key={uuidv4()} ></div>
+                        }
+                        else { return <div className={styles.inactiveIndicator} key={uuidv4()}></div> }
+                    })}
+                </div>
             </div>
-            <div className={styles.indicatorContainer}>
-                {indicator.map(element => {
-                    if (element === true) {
-                        return <div className={styles.activeIndicator} key={uuidv4()} ></div>
-                    }
-                    else { return <div className={styles.inactiveIndicator} key={uuidv4()}></div> }
-                })}
-            </div>
-        </div>
+        </>
+
     )
 
 }

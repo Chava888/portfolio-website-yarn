@@ -27,7 +27,7 @@ export default function Portfolio() {
 
         },
         {
-            name: <img src="https://res.cloudinary.com/dxyntgtel/image/upload/v1641872686/portfolio-website/pig-latin-fms_photo1_xapkbh.jpg" alt="pig latin project" key={uuidv4()} />,
+            name: <img src="https://res.cloudinary.com/dxyntgtel/image/upload/v1641969152/portfolio-website/pig-latin-fms_photo2_siwbuy.jpg" alt="pig latin project" key={uuidv4()} />,
             description: "Pig latin project consisted of working with a team using existing code in React and refactor the logic of the code to perform word translation. Class components were used in the React application."
 
         },
@@ -48,9 +48,8 @@ export default function Portfolio() {
     return (
         <>
             <h1 id={styles.title}><a href="https://github.com/Chava888" target="_blank"><i className="fab fa-github fa-2x" ></i></a> My Personal Projects </h1>
-            <div className={styles.carousel}>
-                <CarouselTemplate items={items} />
-            </div>
+            <CarouselTemplate items={items} />
+
 
             <div className={styles.listOfProjects} >
                 <Card name={"Personal Website Project"} imgLink={items[0].name} link={"https://github.com/Chava888/portfolio-website-yarn"} description={"React, HTML, CSS, Javascript"} />

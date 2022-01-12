@@ -21,8 +21,8 @@ export default function Contact() {
 
 
     return (
-        <div>
-            {/* <Header /> */}
+        <div className={styles.container}>
+
             <h1 className={styles.title}>Contact Information</h1>
 
             {submit === false ?
@@ -59,7 +59,9 @@ export default function Contact() {
                     <button className={styles.button} type="submit" >Submit Request</button>
                 </form>
                 :
-                <form style={{ height: "69vh" }} className={styles.formContainer}><h2 className={styles.headerForForm} style={{ margin: "50px" }}>Thank you for submitting your project details, I will get back to you soon.</h2></form>}
+                <div className={styles.submittedResponse}>
+                    <h2 id={styles.closingStatement}>Thank you for submitting your project details, I will get back to you soon.</h2>
+                </div>}
             <Navbar />
             <Footer />
         </div >
