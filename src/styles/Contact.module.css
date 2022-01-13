@@ -54,7 +54,7 @@
 .textInformation{
     height: 160px;
     width: 60%;
-    border-radius: 10px;
+    border-radius: 15px;
     border: none;
     margin: 10px 0px 20px 0px;
     padding: 5px 0px 0px 20px;
@@ -65,7 +65,7 @@
     color:aliceblue;
     height: 50px;
     width: 150px;
-    border-radius: 10px;
+    border-radius: 15px;
     border: none;
     margin: 20px;
 }
