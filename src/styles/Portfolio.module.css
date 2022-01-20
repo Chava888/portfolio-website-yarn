@@ -5,6 +5,7 @@
       padding-left: 80px;
       margin-bottom: 5px;
       margin-top: 5px;
+      animation: slide-in 2s ease 0s 1 normal forwards;
   }
 
 
@@ -13,4 +14,31 @@
       justify-content: center;
       flex-wrap: wrap;
       margin: 0px;
+      animation: swing-in 3s ease 0s 1 normal forwards;
+  }
+
+  @keyframes swing-in {
+    0% {
+      opacity: 0;
+      transform: rotateX(-100deg);
+      transform-origin: top;
+    }
+  
+    100% {
+      opacity: 1;
+      transform: rotateX(0deg);
+      transform-origin: top;
+    }
+  }
+
+  @keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateX(-250px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }

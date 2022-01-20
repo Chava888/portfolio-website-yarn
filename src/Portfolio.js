@@ -12,9 +12,13 @@ export default function Portfolio() {
     //An array listing projects based on keys: name & description & alt & key
     let items = [
         {
+            name: <img src="https://res.cloudinary.com/dxyntgtel/image/upload/v1641871661/portfolio-website/Yelp_Project_Photo_awxvsq.png" alt="yelp campground project" key={uuidv4()} />,
+            description: "The Yelp Campground Project is a full-stack application that I completed by following a online tutorial. The technologies used to create the application was html, css, bootstrap, mongodb, express back-end framework, javascript, NPM packages, and APIs."
+        },
+        {
+
             name: <img src="https://res.cloudinary.com/dxyntgtel/image/upload/v1641873852/portfolio-website/portfolio-website_Photo1_sl6z3w.jpg" alt="personal website project" key={uuidv4()} />,
             description: "Personal portfolio project project consisted of using React, Yarn, and GitHub technologies. Functional components were created for the various parts of the website and downloaded yarn packages to create this project. Currently, this project is only a front-end."
-
         },
         {
             name: <img src="https://res.cloudinary.com/dxyntgtel/image/upload/v1641873616/portfolio-website/treasure-hunt_Photo1_djmdxk.jpg" alt="treasure hunt project" key={uuidv4()} />,
@@ -36,11 +40,6 @@ export default function Portfolio() {
             description: "The lightbulb project consisted of react class components that used toggle logic and rendering of duplicate lightbuls that behave independently from each other. In this project javascript (JSX in the render() method) and css was used to implement logic and style. "
 
         },
-        {
-            name: <img src="https://res.cloudinary.com/dxyntgtel/image/upload/v1641871661/portfolio-website/Yelp_Project_Photo_awxvsq.png" alt="yelp campground project" key={uuidv4()} />,
-            description: "The Yelp Campground Project is a full-stack application that I completed by following a online tutorial. The technologies used to create the application was html, css, bootstrap, mongodb, express back-end framework, javascript, NPM packages, and APIs."
-
-        }
     ]
 
 
@@ -52,12 +51,12 @@ export default function Portfolio() {
 
 
             <div className={styles.listOfProjects} >
-                <Card name={"Personal Website Project"} imgLink={items[0].name} link={"https://github.com/Chava888/portfolio-website-yarn"} description={"React, HTML, CSS, Javascript"} />
-                <Card name={"Treasure Hunt Project"} imgLink={items[1].name} link={"https://github.com/learn-academy-2021-echo/treasure-hunt-Chava888"} description={"HTML, CSS, Javascript"} />
-                <Card name={"Tic-tac-toe Project"} imgLink={items[2].name} link={"https://github.com/learn-academy-2021-echo/tic-tac-toe-equipo-elite"} description={"React, Javascript, JSX, CSS"} />
-                <Card name={"Pig Latin Project"} imgLink={items[3].name} link={"https://github.com/learn-academy-2021-echo/pig-latin-fms_incryption"} description={"React, Javascript, JSX, CSS"} />
-                <Card name={"Lightbulb Project"} imgLink={items[4].name} link={"https://github.com/learn-academy-2021-echo/lightbulb-challenge-Chava888"} description={"React, Javascript, JSX, CSS"} />
-                <Card name={"Yelp Campground Project"} imgLink={items[5].name} link={"https://vast-chamber-86868.herokuapp.com/"} description={"HTML, CSS, Javascript, Express, MongoDB"} />
+                <Card name={"Yelp Campground Project"} imgLink={items[0].name} link={"https://vast-chamber-86868.herokuapp.com/"} description={"HTML, CSS, Javascript, Express, MongoDB"} />
+                <Card name={"Personal Website Project"} imgLink={items[1].name} link={"https://github.com/Chava888/portfolio-website-yarn"} description={"React, HTML, CSS, Javascript"} />
+                <Card name={"Treasure Hunt Project"} imgLink={items[2].name} link={"https://github.com/learn-academy-2021-echo/treasure-hunt-Chava888"} description={"HTML, CSS, Javascript"} />
+                <Card name={"Tic-tac-toe Project"} imgLink={items[3].name} link={"https://github.com/learn-academy-2021-echo/tic-tac-toe-equipo-elite"} description={"React, Javascript, JSX, CSS"} />
+                <Card name={"Pig Latin Project"} imgLink={items[4].name} link={"https://github.com/learn-academy-2021-echo/pig-latin-fms_incryption"} description={"React, Javascript, JSX, CSS"} />
+                <Card name={"Lightbulb Project"} imgLink={items[5].name} link={"https://github.com/learn-academy-2021-echo/lightbulb-challenge-Chava888"} description={"React, Javascript, JSX, CSS"} />
             </div>
             <Navbar />
             <Footer />

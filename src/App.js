@@ -4,7 +4,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import Home from './Home';
 import About from './About';
 import Portfolio from './Portfolio';
-import Blog from './Blog';
+import Error404 from './Error404';
 import Contact from './Contact';
 
 
@@ -17,6 +17,7 @@ export default function App() {
       <Route path="Portfolio" element={<Portfolio />} />
       {/* <Route path="Blog" element={<Blog />} /> */}
       <Route path="Contact" element={<Contact />} />
+      <Route path="*" element={<Error404 />} />
     </Routes>
   )
 

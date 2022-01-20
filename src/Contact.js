@@ -13,7 +13,7 @@ export default function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault();
         setSubmit(!submit)
-
+        alert('Under construction please email directly to name@gmail.com')
     };
 
 
@@ -32,34 +32,35 @@ export default function Contact() {
                     <div className={styles.blockWrapper}>
                         <div className={styles.block}>
                             <label className={styles.label} htmlFor="firstName">First Name</label>
-                            <input id="firstName" className={styles.inputInformation} placeholder="First Name" />
+                            <input id="firstName" className={styles.inputInformation} placeholder="First Name" required />
                         </div>
 
                         <div className={styles.block}>
                             <label className={styles.label} htmlFor="lastName">Last Name</label>
-                            <input id="lastName" className={styles.inputInformation} placeholder="Last Name" />
+                            <input id="lastName" className={styles.inputInformation} placeholder="Last Name" required />
                         </div>
                     </div>
 
                     <div className={styles.blockWrapper}>
                         <div className={styles.block}>
                             <label className={styles.label} htmlFor="phoneNumber">Phone Number</label>
-                            <input id="phoneNumber" className={styles.inputInformation} placeholder="Phone Number" />
+                            <input id="phoneNumber" className={styles.inputInformation} placeholder="Phone Number" required type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000" />
                         </div>
                         <div className={styles.block}>
                             <label className={styles.label} htmlFor="email">Email</label>
-                            <input id="email" className={styles.inputInformation} placeholder="Email" />
+                            <input id="email" className={styles.inputInformation} placeholder="Email" required type="email" />
                         </div>
                     </div>
 
 
                     <label className={styles.label} htmlFor="information">Message</label>
-                    <textarea id="information" className={styles.textInformation} placeholder="Please provide information here..."></textarea>
+                    <textarea id="information" className={styles.textInformation} placeholder="Please provide information here..." required></textarea>
 
                     <button className={styles.button} type="submit" >Submit Request</button>
                 </form>
                 :
-                <div className={styles.submittedResponse}>
+
+                < div className={styles.submittedResponse}>
                     <h2 id={styles.closingStatement}>Thank you for submitting your project details, I will get back to you soon.</h2>
                 </div>}
             <Navbar />

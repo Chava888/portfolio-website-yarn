@@ -8,11 +8,13 @@ import * as React from "react";
 export default function Home() {
     return (
         <div id={styles.wrapper}>
-            <TechnologiesList />
             <div className={styles.container}>
-                <h1 id={styles.welcome}>WELC😃ME</h1>
-                <p id={styles.description}>Hi am a developer to help you on your next project!</p>
+                <div className={styles.content}>
+                    <h1 id={styles.welcome}>WELC😃ME</h1>
+                    <p id={styles.description}>Hi am a developer to help you on your next project!</p>
+                </div>
             </div>
+            <TechnologiesList />
             <Navbar />
             <Footer />
         </div>

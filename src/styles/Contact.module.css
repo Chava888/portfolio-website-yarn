@@ -21,6 +21,7 @@
     align-items: center;
     /* border: aliceblue 30px solid; */
     background: linear-gradient(2deg, #1CB5E0 0%, #000851 20%);
+    animation: fadein 2s ease 0s 1 normal forwards;
 
 }
 
@@ -118,3 +119,14 @@
     }
     
 }
+
+
+@keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }

@@ -5,6 +5,7 @@
     height: 100%;
     border-radius: 15px;
     margin-bottom: 10px;
+ 
 }
 
 .wrapperCarousel{
@@ -19,6 +20,7 @@
     background-color:aliceblue;
     border-radius: 20px;
     box-shadow: 0 11px 22px rgba(0, 0, 0, 0.21), 0 7px 7px rgba(0, 0, 0, 0.25);
+    animation: intoPage 2s ease 0s 1 normal forwards;
   }
 
 .carouselContainer{
@@ -159,3 +161,16 @@
         display: none;
     }
 }
+
+
+
+@keyframes intoPage {
+    0% {
+      transform: scale(0);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+

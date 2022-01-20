@@ -1,6 +1,7 @@
 .aboutContainer{
   display: flex;
   flex-direction: column;
+  animation: slide-in 1s ease 0s 1 normal forwards;
 }
 
 #title{
@@ -141,3 +142,17 @@
       text-align: center;
     }
    }
+
+   @keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateX(-250px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  

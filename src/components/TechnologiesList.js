@@ -103,7 +103,7 @@ function TechnologiesList() {
 
     // Automate the function to repeat the nextItem function every 3 seconds
     let iconSlider = () => {
-        setTimeout(nextItem, 2000);
+        setTimeout(nextItem, 4000);
     }
     iconSlider()
 
