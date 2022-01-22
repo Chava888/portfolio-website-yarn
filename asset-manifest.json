@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio-website-yarn/static/css/main.f5c9c7dd.css",
-    "main.js": "/portfolio-website-yarn/static/js/main.bbc2f8f9.js",
+    "main.css": "/portfolio-website-yarn/static/css/main.024817dc.css",
+    "main.js": "/portfolio-website-yarn/static/js/main.eeedbe6b.js",
     "static/js/787.f4e5615d.chunk.js": "/portfolio-website-yarn/static/js/787.f4e5615d.chunk.js",
     "index.html": "/portfolio-website-yarn/index.html",
-    "main.f5c9c7dd.css.map": "/portfolio-website-yarn/static/css/main.f5c9c7dd.css.map",
-    "main.bbc2f8f9.js.map": "/portfolio-website-yarn/static/js/main.bbc2f8f9.js.map",
+    "main.024817dc.css.map": "/portfolio-website-yarn/static/css/main.024817dc.css.map",
+    "main.eeedbe6b.js.map": "/portfolio-website-yarn/static/js/main.eeedbe6b.js.map",
     "787.f4e5615d.chunk.js.map": "/portfolio-website-yarn/static/js/787.f4e5615d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5c9c7dd.css",
-    "static/js/main.bbc2f8f9.js"
+    "static/css/main.024817dc.css",
+    "static/js/main.eeedbe6b.js"
   ]
 }
