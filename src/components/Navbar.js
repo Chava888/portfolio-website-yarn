@@ -17,7 +17,7 @@ function Navbar() {
         <nav className={styles.container}>
 
             <div id={styles.menuIcon} onClick={toggleList} ><MenuBarIcon /></div>
-            <div id={styles.name}> Salvador Portfolio</div>
+            <div id={styles.name}>Personal Portfolio</div>
 
             <ul className={styles.nav}>
                 <li className={styles.labels} >

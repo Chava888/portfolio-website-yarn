@@ -14,7 +14,7 @@
       justify-content: center;
       flex-wrap: wrap;
       margin: 0px;
-      animation: swing-in 3s ease 0s 1 normal forwards;
+      animation: swing-in 2s ease 0s 1 normal forwards;
   }
 
   @keyframes swing-in {

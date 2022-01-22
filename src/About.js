@@ -17,8 +17,8 @@ export default function About() {
                     </div>
                     <div id={styles.aboutContent}>
                         <p>Hi, I am a developer that is excited to apply front-end and back-end technologies on new applications. My background before becoming a developer was civil engineering. I used to work for a civil engineering consulting firm to build new infrastructure, where I applied my knowledge and expertise to assist others in projets. My past experience included working with teams, where communication was essential with team members and clients in order to succed in completing the task ahead. However, after six years of working as a civil engineer I decided to purue a new career path.</p>
-
-                        <p>I decided to pursue a new path in my career because I wanted to use my knowldege to create new applications based on my own or others ideas. I describe myself as a problem solver, enthusiastic about new technologies, and adaptive to new environments. I am currently completing a bootcamp course for full stack develpment in San Diego and looking forward to applying my knowldege in a new industry.</p>
+                        <p>The new career choice that I am taking is to become a software developer. I want to use my knowldege to create new applications based on my own or others ideas. I describe myself as a problem solver, enthusiastic about new technologies, and adaptive to new environments. I am currently completing a bootcamp course for full stack develpment in San Diego and looking forward to applying my knowldege in a new industry.</p>
+                        <p>My experience in script languages are ruby and javascript for front end and back end applications. For creating front end applications, I have applied hyper-text mark up language (HTML) and Cascading Style Sheets (CSS). Furthermore, I have used React and Bootstrap for front end applications. The database platforms I have used for applications are MongoDB and PostgreSQL, which use JSON and SQL for queries, respectively. The back end frameworks I have used are Rails and Express to create full stack applications.</p>
                     </div>
                 </div>
                 <div className={styles.backgroundEducation}>
@@ -26,6 +26,7 @@ export default function About() {
                     <ul>
                         <li className={styles.school}>Bachelor of Science Degree in Civil Engineering, University of California, Davis</li>
                         <li className={styles.school}>Masters of Science Degree in Geotechnical Engineering, University of California, Berkeley</li>
+                        <li className={styles.school}> Learn Academy - Full Stack Development Bootcamp Course</li>
                     </ul>
                 </div>
 
