@@ -23,7 +23,7 @@ export default function About() {
                 </div>
                 <div className={styles.backgroundEducation}>
                     <h2 id={styles.labelEducation}>Educational Background</h2>
-                    <ul>
+                    <ul id={styles.educationList}>
                         <li className={styles.school}>Bachelor of Science Degree in Civil Engineering, University of California, Davis</li>
                         <li className={styles.school}>Masters of Science Degree in Geotechnical Engineering, University of California, Berkeley</li>
                         <li className={styles.school}> Learn Academy - Full Stack Development Bootcamp Course</li>
