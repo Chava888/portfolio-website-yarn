@@ -13,31 +13,31 @@ export default function Portfolio() {
     let items = [
         {
             name: <img src="https://res.cloudinary.com/dxyntgtel/image/upload/v1641871661/portfolio-website/Yelp_Project_Photo_awxvsq.png" alt="yelp campground project" key={uuidv4()} />,
-            description: "The Yelp Campground Project is a full-stack application that I completed by following a online tutorial. The technologies used to create the application were HTML, CSS, Bootstrap, Mongodb, Express back-end framework, Javascript, NPM packages, and APIs."
+            description: "The Yelp Campground Project is a full-stack application that I completed by following an online tutorial. The technologies used to create the application were HTML, CSS, Bootstrap, Mongo dB, Express back-end framework, JavaScript, NPM packages, and APIs."
         },
         {
 
-            name: <img src="https://res.cloudinary.com/dxyntgtel/image/upload/v1641873852/portfolio-website/portfolio-website_Photo1_sl6z3w.jpg" alt="personal website project" key={uuidv4()} />,
-            description: "Personal portfolio project consisted of applying React, Yarn, and GitHub technologies. Functional components were created for the various parts of the website and downloaded yarn packages to create this project. Currently, this project is only a front-end application."
+            name: <img src="https://res.cloudinary.com/dxyntgtel/image/upload/v1643175647/portfolio-website/portfolio-website_Photo1_sbz2y1.jpg" alt="personal website project" key={uuidv4()} />,
+            description: "Personal portfolio project consisted of applying React, Yarn, and GitHub technologies. I used functional components for the various parts of the website and downloaded yarn packages to create this project. Currently, the project is only a front-end application."
         },
         {
             name: <img src="https://res.cloudinary.com/dxyntgtel/image/upload/v1641873616/portfolio-website/treasure-hunt_Photo1_djmdxk.jpg" alt="treasure hunt project" key={uuidv4()} />,
-            description: "Treasure hunt mini-project was developed as part of my pre-orientation of my Echo 2021 cohort bootcamp course. This project consisted of the use of HTML, CSS, and Javascript. Furthermore, I worked with another individual to complete this project."
+            description: "Treasure hunt mini project was part of my pre-orientation of my Echo 2021 cohort bootcamp course. This project consisted of the use of HTML, CSS, and JavaScript. Furthermore, I collaborated with another individual to complete this project."
 
         },
         {
             name: <img src="https://res.cloudinary.com/dxyntgtel/image/upload/v1641873141/portfolio-website/tic-tac-toe_Photo1_pw3n0q.jpg" alt="tic-tac-toe project" key={uuidv4()} />,
-            description: "Tic-Tac-Toe project consisted of working with another individual, we used React to create the game. Two class components were created to address the logic and presentation of the boardgame. In addition, we perform pair programming to complete this project."
+            description: "Tic-Tac-Toe project consisted of collaborating with another individual, we used React to create the game. The logic and presentation of the boardgame consists of two class components. In addition, we perform pair programming to complete this project."
 
         },
         {
             name: <img src="https://res.cloudinary.com/dxyntgtel/image/upload/v1641969152/portfolio-website/pig-latin-fms_photo2_siwbuy.jpg" alt="pig latin project" key={uuidv4()} />,
-            description: "Pig latin project consisted of working with a team and existing code in React. We refactor the logic of the code to do word translation. Class components were used in the React application."
+            description: "Pig Latin project consisted of working in a team and existing code in React. We refactor the logic of the code to do word translation. For the React application, the code consisted of class components."
 
         },
         {
             name: <img src="https://res.cloudinary.com/dxyntgtel/image/upload/v1641872268/portfolio-website/lightbulb-challenge-Photo1_njfvte.jpg" alt="lightbulb project" key={uuidv4()} />,
-            description: "The lightbulb project consisted of react class components that used toggle logic and rendering of duplicate lightbulbs that behave independently from each other. In this project javascript, JSX and CSS was used to implement logic and style. "
+            description: "The lightbulb project consisted of react class components, on-off logic, and rendering of duplicate lightbulbs that behave independently from each other. In this project I applied JavaScript, JSX and CSS to implement logic and style."
 
         },
     ]

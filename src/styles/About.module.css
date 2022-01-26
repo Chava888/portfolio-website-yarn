@@ -46,7 +46,8 @@
   }
 
   #aboutContent{
-    background: linear-gradient(2deg, #1CB5E0 0%, #000851 20%);
+    /* background: linear-gradient(2deg, #1CB5E0 0%, #000851 20%); */
+    background: linear-gradient(2deg, #000851 0%, #000851 20%);
     border: 10px  aliceblue solid;
     width: 100%;
     margin-left: 10px;
@@ -56,6 +57,7 @@
     text-align: justify;
     padding: 5px 15px 5px 15px;
     margin: 0px;
+    font-weight: bold;
   }
 
   .profile{
@@ -70,6 +72,7 @@
     flex-direction: column;
     text-align:center;
     color: aliceblue;
+    font-weight: bold;
   }
 
   #labelEducation{
