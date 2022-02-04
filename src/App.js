@@ -1,11 +1,11 @@
 import * as React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 //Pages Components
-import Home from './Home';
-import About from './About';
-import Portfolio from './Portfolio';
-import Error404 from './Error404';
-import Contact from './Contact';
+import Home from './pages/Home';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Error404 from './pages/Error404';
+import Contact from './pages/Contact';
 
 
 

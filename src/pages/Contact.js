@@ -1,12 +1,10 @@
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-// import Header from './components/Header'
-import styles from './styles/Contact.module.css'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import styles from '../styles/Contact.module.css'
 import { useState } from 'react'
 
 
 export default function Contact() {
-
 
     const [submit, setSubmit] = useState(false)
 
@@ -18,7 +16,7 @@ export default function Contact() {
 
 
 
-
+    alert('Form is under construction, please contact me with linkedin')
 
     return (
         <div className={styles.container}>

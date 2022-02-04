@@ -1,7 +1,7 @@
-import styles from './styles/Home.module.css'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import TechnologiesList from './components/TechnologiesList'
+import styles from '../styles/Home.module.css'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import TechnologiesList from '../components/TechnologiesList'
 import * as React from "react";
 
 

@@ -1,8 +1,8 @@
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import styles from './styles/Portfolio.module.css'
-import CarouselTemplate from './components/CarouselTemplate'
-import Card from './components/Card'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import styles from '../styles/Portfolio.module.css'
+import CarouselTemplate from '../components/CarouselTemplate'
+import Card from '../components/Card'
 import { v4 as uuidv4 } from 'uuid'
 
 
@@ -54,7 +54,7 @@ export default function Portfolio() {
                 <Card name={"Yelp Campground Project"} imgLink={items[0].name} link={"https://vast-chamber-86868.herokuapp.com/"} description={"HTML, CSS, Javascript, Express, MongoDB"} />
                 <Card name={"Personal Website Project"} imgLink={items[1].name} link={"https://github.com/Chava888/portfolio-website-yarn"} description={"React, HTML, CSS, Javascript"} />
                 <Card name={"Treasure Hunt Project"} imgLink={items[2].name} link={"https://github.com/learn-academy-2021-echo/treasure-hunt-Chava888"} description={"HTML, CSS, Javascript"} />
-                <Card name={"Tic-tac-toe Project"} imgLink={items[3].name} link={"https://github.com/learn-academy-2021-echo/tic-tac-toe-equipo-elite"} description={"React, Javascript, JSX, CSS"} />
+                <Card name={"Tic-Tac-Toe Project"} imgLink={items[3].name} link={"https://github.com/learn-academy-2021-echo/tic-tac-toe-equipo-elite"} description={"React, Javascript, JSX, CSS"} />
                 <Card name={"Pig Latin Project"} imgLink={items[4].name} link={"https://github.com/learn-academy-2021-echo/pig-latin-fms_incryption"} description={"React, Javascript, JSX, CSS"} />
                 <Card name={"Lightbulb Project"} imgLink={items[5].name} link={"https://github.com/learn-academy-2021-echo/lightbulb-challenge-Chava888"} description={"React, Javascript, JSX, CSS"} />
             </div>

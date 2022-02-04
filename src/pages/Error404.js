@@ -1,8 +1,7 @@
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-// import Header from './components/Header'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import { Routes, Route, Link } from "react-router-dom";
-import styles from './styles/Error404.module.css'
+import styles from '../styles/Error404.module.css'
 
 
 
@@ -10,7 +9,6 @@ import styles from './styles/Error404.module.css'
 export default function Error404() {
     return (
         <div>
-            {/* <Header /> */}
             <Navbar />
             <div className={styles.container}>
                 <div className={styles.wrapper}>
