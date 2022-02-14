@@ -40,6 +40,10 @@ export default function Portfolio() {
             description: "The lightbulb project consisted of react class components, on-off logic, and rendering of duplicate lightbulbs that behave independently from each other. In this project I applied JavaScript, JSX and CSS to implement logic and style."
 
         },
+        {
+            name: <img src="https://res.cloudinary.com/dxyntgtel/image/upload/v1644816766/portfolio-website/Apartments_App_pp4ipf.png" alt="apartments project" key={uuidv4()} />,
+            description: "The apartments project consisted of react class components, postgresql database, and ruby on rails backend framework. The application has CRUD functionality to create, read, update, and delete apartments."
+        },
     ]
 
 
@@ -57,6 +61,7 @@ export default function Portfolio() {
                 <Card name={"Tic-Tac-Toe Project"} imgLink={items[3].name} link={"https://github.com/learn-academy-2021-echo/tic-tac-toe-equipo-elite"} description={"React, Javascript, JSX, CSS"} />
                 <Card name={"Pig Latin Project"} imgLink={items[4].name} link={"https://github.com/learn-academy-2021-echo/pig-latin-fms_incryption"} description={"React, Javascript, JSX, CSS"} />
                 <Card name={"Lightbulb Project"} imgLink={items[5].name} link={"https://github.com/learn-academy-2021-echo/lightbulb-challenge-Chava888"} description={"React, Javascript, JSX, CSS"} />
+                <Card name={"Apartments Project"} imgLink={items[6].name} link={"https://github.com/learn-academy-2021-echo/apartment-app-Chava888"} description={"React, Rails, PostgreSQL, Ruby"} />
             </div>
             <Navbar />
             <Footer />
