@@ -44,6 +44,10 @@ export default function Portfolio() {
             name: <img src="https://res.cloudinary.com/dxyntgtel/image/upload/v1644816766/portfolio-website/Apartments_App_pp4ipf.png" alt="apartments project" key={uuidv4()} />,
             description: "The apartments project consisted of react class components, postgresql database, and ruby on rails backend framework. The application has CRUD functionality to create, read, update, and delete apartments."
         },
+        {
+            name: <img src="https://res.cloudinary.com/dxyntgtel/image/upload/v1647207681/portfolio-website/pantry-hero_Photo1_edroyz.jpg" alt="pantry hero project" key={uuidv4()} />,
+            description: "The pantry hero project is a front-end stack application with CRUD functionality. The application uses react class components, PostgreSQL database, and ruby on rails backend framework. I worked in a team to develop this application and the purpose of the application was to help users in selecting recipes based on existing food ingredients."
+        },
     ]
 
 
@@ -62,6 +66,7 @@ export default function Portfolio() {
                 <Card name={"Pig Latin Project"} imgLink={items[4].name} link={"https://github.com/learn-academy-2021-echo/pig-latin-fms_incryption"} description={"React, Javascript, JSX, CSS"} />
                 <Card name={"Lightbulb Project"} imgLink={items[5].name} link={"https://github.com/learn-academy-2021-echo/lightbulb-challenge-Chava888"} description={"React, Javascript, JSX, CSS"} />
                 <Card name={"Apartments Project"} imgLink={items[6].name} link={"https://github.com/learn-academy-2021-echo/apartment-app-Chava888"} description={"React, Rails, PostgreSQL, Ruby"} />
+                <Card name={"Pantry Hero"} imgLink={items[7].name} link={"https://github.com/Uncapped-Stoners/capstone-project"} description={"React, Rails, PostgreSQL, Ruby, Bootstrap"} />
             </div>
             <Navbar />
             <Footer />
