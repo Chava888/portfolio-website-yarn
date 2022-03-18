@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio-website-yarn/static/css/main.502f4088.css",
-    "main.js": "/portfolio-website-yarn/static/js/main.5faabd35.js",
+    "main.js": "/portfolio-website-yarn/static/js/main.f859251f.js",
     "static/js/787.f4e5615d.chunk.js": "/portfolio-website-yarn/static/js/787.f4e5615d.chunk.js",
     "index.html": "/portfolio-website-yarn/index.html",
     "main.502f4088.css.map": "/portfolio-website-yarn/static/css/main.502f4088.css.map",
-    "main.5faabd35.js.map": "/portfolio-website-yarn/static/js/main.5faabd35.js.map",
+    "main.f859251f.js.map": "/portfolio-website-yarn/static/js/main.f859251f.js.map",
     "787.f4e5615d.chunk.js.map": "/portfolio-website-yarn/static/js/787.f4e5615d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.502f4088.css",
-    "static/js/main.5faabd35.js"
+    "static/js/main.f859251f.js"
   ]
 }
