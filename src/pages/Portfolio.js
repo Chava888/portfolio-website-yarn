@@ -46,7 +46,7 @@ export default function Portfolio() {
         },
         {
             name: <img src="https://res.cloudinary.com/dxyntgtel/image/upload/v1647207681/portfolio-website/pantry-hero_Photo1_edroyz.jpg" alt="pantry hero project" key={uuidv4()} />,
-            description: "The pantry hero project is a front-end stack application with CRUD functionality. The application uses react class components, PostgreSQL database, and ruby on rails backend framework. I worked in a team to develop this application and the purpose of the application was to help users in selecting recipes based on existing food ingredients."
+            description: "The pantry hero project is a full stack application with CRUD functionality. The application uses react class components, PostgreSQL database, and ruby on rails backend framework. I worked in a team to develop this application and the purpose of the application was to help users in selecting recipes based on existing food ingredients."
         },
     ]
 
